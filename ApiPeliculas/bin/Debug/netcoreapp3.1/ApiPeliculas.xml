@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiPeliculas</name>
+    </assembly>
+    <members>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.GetCategorias">
+            <summary>
+            Obtener todas las categorias.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.GetCategoria(System.Int32)">
+            <summary>
+            Obtener una categoria individual.
+            </summary>
+            <param name="categoriaId">Este es el Id de la categoría.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.CrearCategoria(ApiPeliculas.Models.DTOs.CategoriaDTO)">
+            <summary>
+            Crear una nueva categoría
+            </summary>
+            <param name="categoriaDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.ActualizarCategoria(System.Int32,ApiPeliculas.Models.DTOs.CategoriaDTO)">
+            <summary>
+            Actualizar una categoría existente.
+            </summary>
+            <param name="categoriaId"></param>
+            <param name="categoriaDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.EliminarCategoria(System.Int32)">
+            <summary>
+            Borrar una categoría existente.
+            </summary>
+            <param name="categoriaId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApiPeliculas.Models.DTOs.CategoriaDTO">
+            <summary>
+            Para poder mapear esta clase se necesita las siguientes extensiones:
+            * Automapper
+            * Automapper.Extensions.Microsoft.DependencyInjection
+            </summary>
+        </member>
+    </members>
+</doc>
